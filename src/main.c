@@ -6,7 +6,7 @@
 /*   By: irazafim <irazafim@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/07 12:13:11 by pmihangy          #+#    #+#             */
-/*   Updated: 2024/10/17 15:54:42 by irazafim         ###   ########.fr       */
+/*   Updated: 2024/10/21 07:52:57 by irazafim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,10 @@ bool	repl(char **env, char *path)
 						}
 						else if (!ft_strncmp(ast_root->text, "export", 69))
 							export_minishell(env, ast_root->argv);	
+					}
+					else
+					{
+						
 					}
 				}
 				else
